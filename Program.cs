@@ -10,6 +10,9 @@ namespace CShap.bai2._0
     {
         static void Main(string[] args)
         {
-        }
+            Console.Write("Nhap tren cua ban: ");
+            string ten = Console.ReadLine();
+            Console.WriteLine("hello {0}!", ten);
+            Console.ReadKey();
     }
 }
